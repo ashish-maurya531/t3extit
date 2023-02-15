@@ -71,7 +71,7 @@ passport.serializeUser(function(user, cb) {
   passport.use(new GoogleStrategy({
     clientID: "528481065357-pu699i47phtd5dq22dtp8o1ft84llgn3.apps.googleusercontent.com",
     clientSecret: "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",
-    callbackURL: "http://localhost:3000/auth/google/callback",
+    callbackURL: "hhttps://63ed4afac0c87607476058c7--super-ganache-ea5ef6.netlify.app/auth/google/callback",
     proxy:true
   },
   async function(token, tokenSecret, email, done){
